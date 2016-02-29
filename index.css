@@ -6793,7 +6793,7 @@ body {
 }
 #bg {
   background-position: center top;
-  padding: 70px 90px 120px 90px;
+  padding: 90px 70px 120px 90px;
 }
 #search-container {
   position: relative;
@@ -6811,7 +6811,7 @@ body {
   /* Put this on top of the blurred layer */
   position: relative;
   z-index: 100;
-  padding: 20px;
+  padding: 20px 80px 20px 80px;
   background: #002b36;
   /* for IE */
   background: rgba(0, 43, 54, 0.7);
