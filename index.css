@@ -70,6 +70,7 @@ dfn {
 }
 h1 {
   font-size: 2em;
+  font-size: 4vmax;
   margin: 0.67em 0;
 }
 mark {
@@ -1270,10 +1271,12 @@ h6 .small,
 h1,
 .h1 {
   font-size: 52px;
+  font-size: 4vmax;
 }
 h2,
 .h2 {
   font-size: 43px;
+  font-size: 2vmax;
 }
 h3,
 .h3 {
@@ -6797,12 +6800,9 @@ body {
 }
 #search-bg {
   /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
-  position: absolute;
+  position: relative;
   z-index: 99;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+
   /* Pull the background 70px higher to the same place as #bg's */
   background-position: center -70px;
   
