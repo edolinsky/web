@@ -6806,7 +6806,6 @@ body {
   /* Pull the background 70px higher to the same place as #bg's */
   background-position: center -70px;
   
-  filter: blur(1px);
 }
 #search {
   /* Put this on top of the blurred layer */
