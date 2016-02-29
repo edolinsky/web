@@ -1290,6 +1290,7 @@ h5,
 h6,
 .h6 {
   font-size: 17px;
+  font-size: 2vw;
 }
 p {
   margin: 0 0 14px;
