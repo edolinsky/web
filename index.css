@@ -6784,6 +6784,7 @@ body {
 }
 #bg,
 #search-bg {
+  background-image: url('https://s3-us-west-2.amazonaws.com/jdolinsky/01.jpg'));
   background-repeat: no-repeat;
   background-size: 1080px auto;
 }
@@ -6796,24 +6797,29 @@ body {
 }
 #search-bg {
   /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
-  position: relative;
+  position: absolute;
   z-index: 99;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   /* Pull the background 70px higher to the same place as #bg's */
   background-position: center -70px;
-  filter: blur(50px);
+  
+  filter: blur(1px);
 }
 #search {
   /* Put this on top of the blurred layer */
   position: relative;
   z-index: 100;
-  padding: 10px;
+  padding: 20px;
   background: #002b36;
   /* for IE */
   background: rgba(0, 43, 54, 0.7);
 }
 @media (max-width: 600px) {
   #bg {
-    padding: 1px;
+    padding: 10px;
   }
   #search-bg {
     background-position: center -10px;
