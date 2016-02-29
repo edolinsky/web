@@ -1290,11 +1290,11 @@ h5,
 h6,
 .h6 {
   font-size: 17px;
-  font-size: 2.5vw;
+  font-size: 2.5vmax;
 }
 p {
   margin: 0 0 14px;
-  font-size: 1.25vw;
+  font-size: 1.25vmax;
 }
 .lead {
   margin-bottom: 28px;
@@ -6780,7 +6780,7 @@ body {
 
 #media-logo{
   font-size: small;
-  font-size: 2vw;
+  font-size: 2vmax;
 }
 #bg,
 #search-bg {
